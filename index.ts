@@ -47,7 +47,7 @@ function animate() {
       square.style.width = "2vw";
       square.style.height = "4vh";
       square.style.borderRadius = `20%`;
-      square.style.background = `rgba(0, 0, 0, ${0.15 + intensity * 0.7})`;
+      square.style.background = `rgba(0, 0, 0, ${0.20 + intensity * 0.7})`;
     } else {
       square.style.background = "";
       square.style.width = "";
